@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16.0",
+    "sound_definitions": {
+        "fartSound": {
+            "category": "neutral",
+            "max_distance": 30,
+            "min_distance": null,
+            "sounds": [
+                "sounds/fart0",
+                "sounds/fart1",
+                "sounds/fart2",
+                "sounds/fart3",
+                "sounds/fart4",
+                "sounds/fart5",
+                "sounds/fart6"
+            ]
+        }
+    }
+}

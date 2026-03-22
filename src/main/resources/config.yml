@@ -1,0 +1,4 @@
+trajectory:
+  speed: 2
+  gravity: 0.8
+  steps: 50

@@ -1,0 +1,21 @@
+name: FartPlugin
+main: org.feisk73.fartPlugin.Main
+version: "1.0.0"
+api: ["1.0.0"]
+
+author: Feisk73
+description: Adds fart, piss, and spit commands.
+
+permissions:
+  fartplugin.command.fart:
+    description: "Fart"
+    default: true
+  fartplugin.command.spit:
+    description: "Spit"
+    default: true
+  fartplugin.command.piss:
+    description: "Piss"
+    default: true
+  fartplugin.command.reload:
+    description: "Config reload"
+    default: op
