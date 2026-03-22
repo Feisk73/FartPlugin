@@ -11,6 +11,7 @@ public class ReloadCommand extends Command {
 
     @Override
     public boolean execute(CommandSender sender, String commandLabel, String[] args) {
+        if (!sender.hasPermission("fartplugin.command.reload")) return false;
         ConfigUtil.reload();
         sender.sendMessage("[FartPlugin] Config reloaded");
         return true;
